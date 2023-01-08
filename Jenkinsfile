@@ -7,7 +7,7 @@ pipeline
         {
             steps {
                 git branch: 'master',
-                    url: 'https://github.com/<username>/<repoName>'
+                    url: 'https://github.com/adityagoel-mata/node-todo-cicd.git'
             }
         }
     }
